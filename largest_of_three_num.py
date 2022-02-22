@@ -10,6 +10,6 @@ if a > b and a > c :
 elif b > c and b > a:
     largest = b #b
 else :
-    largest = a #c
+    largest = c #c
 
 print(largest, "is the largest of three numbers.")
