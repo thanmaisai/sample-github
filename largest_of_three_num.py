@@ -8,8 +8,8 @@ largest = 0
 if a > b and a > c :
     largest = a
 elif b > c :
-    largest = a #b
+    largest = b #b
 else :
-    largest = a #c
+    largest = c #c
 
 print(largest, "is the largest of three numbers.")
