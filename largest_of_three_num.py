@@ -7,9 +7,9 @@ largest = 0
 
 if a > b and a > c :
     largest = a
-elif b > c :
-    largest = a #b
+elif b > c and b > a:
+    largest = b
 else :
-    largest = a #c
+    largest = c
 
 print(largest, "is the largest of three numbers.")
